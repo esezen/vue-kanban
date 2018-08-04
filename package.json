@@ -1,5 +1,5 @@
 {
-  "name": "kenban",
+  "name": "kanban",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,8 +7,10 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "bulma": "^0.7.1",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1",
+    "vuedraggable": "^2.16.0",
     "vuex": "^3.0.1"
   },
   "devDependencies": {

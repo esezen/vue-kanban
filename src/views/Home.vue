@@ -1,18 +1,22 @@
 <template>
   <div class="home">
-    <img src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="page-header">
+      <h1>Kanban Board</h1>
+      <p class="lead">A simple Kanban Board written in Vue</p>
+    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'home',
-  components: {
-    HelloWorld
-  }
+  components: {}
 }
 </script>
+<style>
+.page-header h1 {
+  font-weight: 300;
+}
+</style>
